@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 // This file is for arrays, such as posts, authors and info
-// Every $post contains title, content, author, date and likes
+// Every $post contains title, content, author, date and number of likes
 
     // $posts = [
     //   [

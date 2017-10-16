@@ -25,6 +25,7 @@
       <input type="submit" name="post" value="POST" class="button" />
       <input type="reset" name="reset" value="RESET"class="button" />
     </form>
+    
     <?php foreach ($posts as $post): ?>
 
       <article>
