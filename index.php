@@ -27,7 +27,8 @@
         <p>
           <?php echo $post['content'] ?>
         </p>
-        <p>Likes:
+        <p>
+          <img src="/images/like.png">
           <?php echo $post['likes'] ?>
         </p>
 
