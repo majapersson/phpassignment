@@ -1,0 +1,50 @@
+form {
+  padding-left: 5em;
+  width: 80%;
+}
+
+input[type="text"] {
+  background-color: #7FDBFF;
+  border: 2px solid #2ECC40;
+  border-radius: 5px;
+  color: #111;
+  display: block;
+  height: 2em;
+  margin: .5em 0;
+  padding: .5em;
+}
+
+textarea {
+  background-color: #7FDBFF;
+  color: #111;
+  border: 2px solid #2ECC40;
+  display: block;
+  resize: none;
+}
+
+.button {
+  border: none;
+  padding: 1em;
+  margin: .5em;
+}
+
+input[type="submit"] {
+  background-color: #2ECC40;
+  font-weight: bold;
+  transition: all .2s ease-in;
+}
+
+input[type="submit"]:hover {
+  background-color: #29b236;
+  border-radius: 10px;
+}
+
+input[type="reset"] {
+  background-color: #EEE;
+  transition: all .2s ease-in;
+}
+
+input[type="reset"]:hover {
+  background-color: #DDD;
+  border-radius: 10px;
+}
