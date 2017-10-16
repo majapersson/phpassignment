@@ -6,3 +6,7 @@ This is my blog assignment in PHP.
 
 My blog feed will feature characters from Rick and Morty and ipsum-text
 generated from http://loremricksum.com/
+
+2017-10-16
+• Started with project, added array $posts with first two posts
+• Created main HTML structure with php-elements
