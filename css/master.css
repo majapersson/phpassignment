@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  width: 50%;
+}
+
+article {
+  border-top: 1px solid black;
+  padding: 1em;
+}
