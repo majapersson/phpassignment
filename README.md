@@ -4,5 +4,5 @@
 
 This is my blog assignment in PHP.
 
-My blog feed will feature characters from Rick adn Morty and ipsum-text
+My blog feed will feature characters from Rick and Morty and ipsum-text
 generated from http://loremricksum.com/
