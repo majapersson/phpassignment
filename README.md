@@ -11,3 +11,4 @@ generated from http://loremricksum.com/
 - Started with project, added array $posts with first two posts
 - Created main HTML structure with php-elements
 - Added Rick and Morty style and form
+- Started messing around with reading from file
