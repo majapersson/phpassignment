@@ -11,6 +11,7 @@
 </head>
 <body>
   <main>
+    <h1>The best Rick and Morty blog ever</h1>
     <?php foreach ($posts as $post): ?>
 
       <article>
