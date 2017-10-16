@@ -30,6 +30,7 @@ body {
 main {
   background-color: #39CCCC;
   border: 5px solid #2ECC40;
+  border-radius: 50px;
   margin: 2em auto;
   width: 50%;
 }
