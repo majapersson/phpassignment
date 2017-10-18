@@ -26,27 +26,29 @@
       <input type="reset" name="reset" value="RESET"class="button" />
     </form>
 
-    <?php foreach ($posts as $post): ?>
+    <?php
+    usort($posts, 'sortByDate');
 
-      <article>
-        <h2>
-          <?php echo $post['title'] ?>
-        </h2>
-        <h3>
-          <?php echo getAuthor($post)['name'] ?>
-        </h3>
-        <time>
-          <?php echo $post['date'] ?>
-        </time>
-        <p>
-          <?php echo $post['content'] ?>
-        </p>
-        <p>
-          <img src="/images/like2.png">
-          <?php echo $post['likes'] ?>
-        </p>
+    foreach ($posts as $post): ?>
 
-      </article>
+    <article>
+      <h2>
+        <?php echo $post['title'] ?>
+      </h2>
+      <h3>
+        <?php echo getAuthor($post)['name'] ?>
+      </h3>
+      <time>
+        <?php echo $post['date'] ?>
+      </time>
+      <p>
+        <?php echo $post['content'] ?>
+      </p>
+      <p>
+        <img src="/images/like2.png">
+        <?php echo $post['likes'] ?>
+      </p>
+    </article>
 
     <?php endforeach; ?>
   </main>

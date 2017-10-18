@@ -17,5 +17,3 @@ function getAuthor(array $post): array {
 function sortByDate($firstPost, $secondPost) {
   return $firstPost['date'] < $secondPost['date'];
 }
-
-usort($posts, 'sortByDate');
