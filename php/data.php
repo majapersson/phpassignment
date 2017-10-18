@@ -31,7 +31,7 @@ $posts =
       'name' => 'Rick Sanchez'
     ],
 
-    'date' => '2017-10-18',
+    'date' => '2017-09-30',
     'likes' => 1,
   ],
 
@@ -67,7 +67,7 @@ $posts =
       'name' => 'Pickle Rick'
     ],
 
-    'date' => '2017-09-30',
+    'date' => '2017-10-15',
     'likes' => 25,
   ],
 
@@ -91,7 +91,7 @@ $posts =
       'name' => 'Rick Sanchez'
     ],
 
-    'date' => '2017-10-16',
+    'date' => '2017-10-20',
     'likes' => 28,
   ],
 
