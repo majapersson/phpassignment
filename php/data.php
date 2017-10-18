@@ -23,7 +23,7 @@ declare(strict_types=1);
 $posts =
 [
   [
-    'title' => "There's pros and cons to every alternate timeline.",
+    'title' => "What are you looking at, mother fucker!",
     'content' => "Text",
 
     'author' => [
@@ -48,11 +48,11 @@ $posts =
   ],
 
   [
-    'title' => 'What are you looking at, mother fucker!',
+    'title' => "There's pros and cons to every alternate timeline.",
     'content' => 'Text',
     'author' => [
       'id' => 3,
-      'name' => 'Rick C-137'
+      'name' => 'Doofus Rick'
     ],
 
     'date' => '2017-09-25',
@@ -83,6 +83,64 @@ $posts =
     'likes' => 90,
   ],
 
+  [
+    'title' => "Fuck you, God! Not today bitch!",
+    'content' => 'Text',
+    'author' => [
+      'id' => 1,
+      'name' => 'Rick Sanchez'
+    ],
 
+    'date' => '2017-10-16',
+    'likes' => 28,
+  ],
+
+  [
+    'title' => "And that's the wayyy, the news goes!",
+    'content' => 'Text',
+    'author' => [
+      'id' => 2,
+      'name' => 'Simple Rick'
+    ],
+
+    'date' => '2017-09-15',
+    'likes' => 2,
+  ],
+
+  [
+    'title' => "I'd like to order one large person with extra people please. white people, no no no black people... and hispanic on half.",
+    'content' => 'Text',
+    'author' => [
+      'id' => 3,
+      'name' => 'Doofus Rick'
+    ],
+
+    'date' => '2017-08-28',
+    'likes' => 7,
+  ],
+
+  [
+    'title' => "They're robots Morty! It's okay to shoot them!",
+    'content' => 'Text',
+    'author' => [
+      'id' => 4,
+      'name' => 'Pickle Rick'
+    ],
+
+    'date' => '2017-09-08',
+    'likes' => 9,
+  ],
+
+  [
+    'title' => 'Rikitikitavi, bitch!',
+    'content' => 'Text',
+    'author' => [
+      'id' => 5,
+      'name' => 'Tiny Rick'
+    ],
+
+    'date' => '2017-10-03',
+    'likes' => 3,
+  ],
 
 ];
