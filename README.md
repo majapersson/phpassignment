@@ -12,6 +12,7 @@ generated from http://loremricksum.com/
 - Write post to file
 
 ## 2017-10-18
+- Added rest of posts
 - Fixed sortByDate-function
 - Added profile pictures
 
