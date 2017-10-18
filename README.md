@@ -1,6 +1,6 @@
 # phpassignment - Blog
 
-!(https://media.giphy.com/media/7rQf04hfkMx9K/giphy.gif)
+<img src="https://media.giphy.com/media/7rQf04hfkMx9K/giphy.gif">
 
 This is my blog assignment in PHP.
 
