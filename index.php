@@ -16,7 +16,7 @@
 </head>
 <body>
   <main>
-    <h1>The best Rick and Morty blog ever</h1>
+    <h1>Blog of Ricks</h1>
 
     <form action="index.php" method="post">
       <input type="text" name="author" placeholder="Your name" />
@@ -25,7 +25,7 @@
       <input type="submit" name="post" value="POST" class="button" />
       <input type="reset" name="reset" value="RESET"class="button" />
     </form>
-    
+
     <?php foreach ($posts as $post): ?>
 
       <article>
@@ -33,7 +33,7 @@
           <?php echo $post['title'] ?>
         </h2>
         <h3>
-          <?php echo getUser($post)['fullName'] ?>
+          <?php echo getAuthor($post)['name'] ?>
         </h3>
         <time>
           <?php echo $post['date'] ?>
