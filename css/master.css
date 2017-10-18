@@ -53,6 +53,11 @@ h2 {
   margin: .5em 0;
 }
 
+.profile {
+  height: 50px;
+  width: 50px;
+}
+
 h3 {
   display: inline-block;
   font-family: "justinRoiland";

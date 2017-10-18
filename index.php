@@ -35,6 +35,7 @@
       <h2>
         <?php echo $post['title'] ?>
       </h2>
+      <img src="<?php echo $post['author']['picture'] ?>" class="profile">
       <h3>
         <?php echo getAuthor($post)['name'] ?>
       </h3>

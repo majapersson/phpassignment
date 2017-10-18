@@ -11,7 +11,8 @@ declare(strict_types=1);
     //     'content' => '',
     //     'author' => [
     //       'id' => '',
-    //       'name' => ''
+    //       'name' => '',
+    //       'picture' => '',
     //     ],
     //
     //     'date' => '',
@@ -28,7 +29,8 @@ $posts =
 
     'author' => [
       'id' => 1,
-      'name' => 'Rick Sanchez'
+      'name' => 'Rick Sanchez',
+      'picture' => 'images/rick_sanchez.png',
     ],
 
     'date' => '2017-09-30',
@@ -40,7 +42,8 @@ $posts =
     'content' => "Text",
     'author' => [
       'id' => 2,
-      'name' => 'Simple Rick'
+      'name' => 'Simple Rick',
+      'picture' => 'images/simple_rick.png'
     ],
 
     'date' => '2017-10-11',
@@ -52,7 +55,8 @@ $posts =
     'content' => 'Text',
     'author' => [
       'id' => 3,
-      'name' => 'Doofus Rick'
+      'name' => 'Doofus Rick',
+      'picture' => 'images/doofus_rick.png',
     ],
 
     'date' => '2017-09-25',
@@ -64,7 +68,8 @@ $posts =
     'content' => 'Text',
     'author' => [
       'id' => 4,
-      'name' => 'Pickle Rick'
+      'name' => 'Pickle Rick',
+      'picture' => 'images/pickle_rick.png'
     ],
 
     'date' => '2017-10-15',
@@ -76,7 +81,8 @@ $posts =
     'content' => 'Text',
     'author' => [
       'id' => 5,
-      'name' => 'Tiny Rick'
+      'name' => 'Tiny Rick',
+      'picture' => 'images/tiny_rick.png'
     ],
 
     'date' => '2017-10-05',
@@ -88,7 +94,8 @@ $posts =
     'content' => 'Text',
     'author' => [
       'id' => 1,
-      'name' => 'Rick Sanchez'
+      'name' => 'Rick Sanchez',
+      'picture' => 'images/rick_sanchez.png',
     ],
 
     'date' => '2017-10-20',
@@ -100,7 +107,8 @@ $posts =
     'content' => 'Text',
     'author' => [
       'id' => 2,
-      'name' => 'Simple Rick'
+      'name' => 'Simple Rick',
+      'picture' => 'images/simple_rick.png'
     ],
 
     'date' => '2017-09-15',
@@ -112,7 +120,8 @@ $posts =
     'content' => 'Text',
     'author' => [
       'id' => 3,
-      'name' => 'Doofus Rick'
+      'name' => 'Doofus Rick',
+      'picture' => 'images/doofus_rick.png',
     ],
 
     'date' => '2017-08-28',
@@ -124,7 +133,8 @@ $posts =
     'content' => 'Text',
     'author' => [
       'id' => 4,
-      'name' => 'Pickle Rick'
+      'name' => 'Pickle Rick',
+      'picture' => 'images/pickle_rick.png',
     ],
 
     'date' => '2017-09-08',
@@ -136,7 +146,8 @@ $posts =
     'content' => 'Text',
     'author' => [
       'id' => 5,
-      'name' => 'Tiny Rick'
+      'name' => 'Tiny Rick',
+      'picture' => 'images/tiny_rick.png',
     ],
 
     'date' => '2017-10-03',
