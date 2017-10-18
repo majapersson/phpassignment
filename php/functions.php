@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 // This file is for all functions
 
-function getUser(array $post): array {
+function getAuthor(array $post): array {
   return $post['author'];
 }
 
-function getPublishDate(array $post): string {
-  return $post['date'];
+function sortByDate($firstPost, $secondPost) {
+  return $firstPost['date'] < $secondPost['date'];
 }
+
+usort($posts, 'sortByDate');
