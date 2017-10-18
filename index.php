@@ -18,13 +18,13 @@
   <main>
     <h1>Blog of Ricks</h1>
 
-    <form action="index.php" method="post">
+    <!-- <form action="index.php" method="post">
       <input type="text" name="author" placeholder="Your name" />
       <input type="text" name="title" placeholder="Title" />
       <textarea name="content" rows="8" cols="80"></textarea>
       <input type="submit" name="post" value="POST" class="button" />
       <input type="reset" name="reset" value="RESET"class="button" />
-    </form>
+    </form> -->
 
     <?php
     usort($posts, 'sortByDate');
