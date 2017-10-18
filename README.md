@@ -7,8 +7,13 @@ This is my blog assignment in PHP.
 My blog feed will feature characters from Rick and Morty and ipsum-text
 generated from http://loremricksum.com/
 
+## To Do (if possible)
+- Read data from file
+- Write post to file
+
 ## 2017-10-18
-- Fix sortByDate-function
+- Fixed sortByDate-function
+- Added profile pictures
 
 ## 2017-10-16
 - Started with project, added array $posts with first two posts

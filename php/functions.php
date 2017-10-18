@@ -8,6 +8,7 @@ declare(strict_types=1);
 // - Open file
 // - Read from file
 // - Write to file
+//   - If author exists, add existing ID and picture, else add new ID and default picture
 // - Add Like-function
 
 function getAuthor(array $post): array {
