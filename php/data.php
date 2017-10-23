@@ -24,9 +24,9 @@ $file = file_get_contents(__DIR__.'/posts.json');
 
 // echo $file;
 
-var_dump(json_decode($file, true));
+$posts = json_decode($file, true);
 
-// var_dump($posts);
+var_dump($posts);
 
 // $posts = [
 //   [
