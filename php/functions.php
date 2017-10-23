@@ -18,3 +18,12 @@ function getAuthor(array $post): array {
 function sortByDate($firstPost, $secondPost) {
   return $firstPost['date'] < $secondPost['date'];
 }
+
+function getAuthorId(string $authorName, array $posts) {
+  foreach($posts as $post){
+    if ($authorName === $post['author']['name']){
+      return $post['author']['id'];
+    }
+  }
+  // Return new ID
+}
