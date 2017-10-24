@@ -23,9 +23,9 @@ $posts[] = [
   'title' => $_POST['title'],
   'content' => $_POST['content'],
   'author' => [
-    'id' => getNewAuthor($_POST['author'], $posts)['id'],
+    'id' => newAuthor($_POST['author'], $posts)['id'],
     'name' => $_POST['author'],
-    'picture' => getNewAuthor($_POST['author'], $posts)['picture']
+    'picture' => newAuthor($_POST['author'], $posts)['picture']
   ],
   'date' => date('Y-m-d'),
   'likes' => random_int(0, 100),
