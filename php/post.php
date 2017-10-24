@@ -1,5 +1,8 @@
 <?php
 
+// This file is for writing new posts to posts.json
+// Every $post contains title, content, author (with name, ID and profile picture), date published and number of likes
+
 //   [
 //     'title' => '',
 //     'content' => '',
@@ -20,11 +23,14 @@ $posts[] = [
   'title' => $_POST['title'],
   'content' => $_POST['content'],
   'author' => [
-    'id' => getAuthorId($_POST['author'], $posts),
+    'id' => getNewAuthor($_POST['author'], $posts)['id'],
     'name' => $_POST['author'],
+    'picture' => getNewAuthor($_POST['author'], $posts)['picture']
   ],
   'date' => date('Y-m-d'),
   'likes' => random_int(0, 100),
 ];
 
-var_dump($posts);
+file_put_contents(__DIR__.'/posts.json', json_encode($posts));
+
+header("Location: ../index.php");
