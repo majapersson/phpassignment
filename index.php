@@ -42,7 +42,7 @@
         <?php echo getAuthor($post)['name'] ?>
       </h3>
       <time>
-        <?php echo $post['date'] ?>
+        <?php echo date('Y-m-d', $post['date']) ?>
       </time>
       <p>
         <?php echo $post['content'] ?>

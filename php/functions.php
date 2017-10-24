@@ -5,7 +5,6 @@ declare(strict_types=1);
 // This file is for all functions
 
 // TO DO:
-//   - If author exists, add existing ID and picture, else ADD NEW ID and default picture
 // - Add Like-function
 
 function getAuthor(array $post): array {
@@ -15,8 +14,6 @@ function getAuthor(array $post): array {
 
 function sortByDate($firstPost, $secondPost) {
   // Sorts posts by date published
-  // TO DO:
-  // Sort by time() instead of date
   return $firstPost['date'] < $secondPost['date'];
 }
 
@@ -26,12 +23,12 @@ function newAuthor(string $authorName, array $posts):array {
   $newId = 0;
   foreach($posts as $post){
     if ($post['author']['id'] > $newId){
+      // ID-counter
       $newId = $post['author']['id'];
     }
     if ($authorName === $post['author']['name']){
       return $post['author'];
     }
   }
-  // $newId++; // Add new id
   return ['name' => $authorName, 'id' => ++$newId,'picture' => 'images/default.png'];
 }

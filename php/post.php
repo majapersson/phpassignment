@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 // This file is for writing new posts to posts.json
 // Every $post contains title, content, author (with name, ID and profile picture), date published and number of likes
 
@@ -27,7 +29,7 @@ $posts[] = [
     'name' => $_POST['author'],
     'picture' => newAuthor($_POST['author'], $posts)['picture']
   ],
-  'date' => date('Y-m-d'),
+  'date' => time(),
   'likes' => random_int(0, 100),
 ];
 
