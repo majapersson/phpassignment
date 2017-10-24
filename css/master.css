@@ -21,6 +21,7 @@
 }
 
 body {
+  background-color: #EEE;
   background-image: url('../images/pickle_rick.png');
   background-attachment: fixed;
   color: #111;
@@ -43,7 +44,7 @@ h1 {
 }
 
 article {
-  border-top: 1px solid black;
+  border-top: 3px solid #2ECC40;
   padding: 1em;
   margin: 1em;
 }
