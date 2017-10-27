@@ -2,8 +2,8 @@
 
   declare(strict_types=1);
 
-  require __DIR__.'\php\data.php';
-  require __DIR__.'\php\functions.php';
+  require __DIR__.'/php/data.php';
+  require __DIR__.'/php/functions.php';
 
 ?>
 

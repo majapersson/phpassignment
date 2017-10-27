@@ -18,8 +18,8 @@ declare(strict_types=1);
 //     'likes' => '',
 //   ],
 
-require __DIR__.'\data.php';
-require __DIR__.'\functions.php';
+require __DIR__.'/data.php';
+require __DIR__.'/functions.php';
 
 $posts[] = [
   'title' => $_POST['title'],
