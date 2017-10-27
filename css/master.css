@@ -10,19 +10,14 @@
   src: url("../fonts/get_schwifty_by_jonizaak.ttf");
 }
 
-@font-face {
-  font-family: "adultSwim";
-  src: url("../fonts/adult_swim_font_by_esteveztheart.ttf");
-}
-
 * {
   box-sizing: border-box;
-  font-family: "adultSwim", helvetica, arial;
+  font-family: 'Titillium Web', helvetica, sans-serif;
 }
 
 body {
   background-color: #EEE;
-  background-image: url('../images/pickle_rick.png');
+  background: url('../images/background.jpg') 100%;
   background-attachment: fixed;
   color: #111;
   font-size: 16px;
@@ -35,7 +30,7 @@ main {
 }
 
 section, article {
-  background-color: #EEE;
+  background-color: rgba(238, 238, 238, .9);
   border: 2px solid #2ECC40;
   border-radius: 10px;
   padding: 1em;
@@ -78,5 +73,6 @@ time {
 }
 
 p {
+  font-size: 1.2em;
   line-height: 125%;
 }

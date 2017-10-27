@@ -14,6 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/master.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
   <title>The best blog ever!</title>
 </head>
 <body>
@@ -50,7 +51,7 @@
         <?php echo $post['content'] ?>
       </p>
       <p>
-        <img src="/images/like2.png">
+        <img src="images/like2.png">
         <?php echo $post['likes'] ?>
       </p>
     </article>
