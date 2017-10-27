@@ -1,4 +1,4 @@
-# phpassignment - Blog
+# PHP assignment - Blog
 
 <img src="https://media.giphy.com/media/7rQf04hfkMx9K/giphy.gif">
 
