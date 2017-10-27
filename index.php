@@ -14,19 +14,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="/css/master.css">
-  <title>The best Rick and Morty Blog ever!</title>
+  <title>The best blog ever!</title>
 </head>
 <body>
   <main>
-    <h1>Blog of Ricks</h1>
+    <section>
+      <h1>Blog of Ricks</h1>
 
-    <form action="/php/post.php" method="post">
-      <input type="text" name="author" placeholder="Your name" />
-      <input type="text" name="title" placeholder="Title" />
-      <textarea name="content" rows="8" cols="80"></textarea>
-      <input type="submit" name="post" value="POST" class="button" />
-      <input type="reset" name="reset" value="RESET"class="button" />
-    </form>
+      <form action="/php/post.php" method="post">
+        <input type="text" name="author" placeholder="Your name" />
+        <input type="text" name="title" placeholder="Title" />
+        <textarea name="content" rows="8" cols="80"></textarea>
+        <input type="submit" name="post" value="POST" class="button" />
+        <input type="reset" name="reset" value="RESET"class="button" />
+      </form>
+    </section>
 
     <?php
     usort($posts, 'sortByDate');
