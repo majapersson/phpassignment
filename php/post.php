@@ -22,11 +22,11 @@ require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
 
 $posts[] = [
-  'title' => $_POST['title'],
-  'content' => $_POST['content'],
+  'title' => filter_var($_POST['title'], FILTER_SANITIZE_STRING),
+  'content' => filter_var($_POST['content'], FILTER_SANITIZE_STRING),
   'author' => [
     'id' => newAuthor($_POST['author'], $posts)['id'],
-    'name' => $_POST['author'],
+    'name' => filter_var($_POST['author'], FILTER_SANITIZE_STRING),
     'picture' => newAuthor($_POST['author'], $posts)['picture']
   ],
   'date' => time(),
