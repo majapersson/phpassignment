@@ -42,7 +42,7 @@
       </h2>
       <img src="<?php echo $post['author']['picture'] ?>" class="profile">
       <h3>
-        <?php echo getAuthor($post)['name'] ?>
+        <?php echo $post['author']['name'] ?>
       </h3>
       <time>
         <?php echo date('Y-m-d', $post['date']) ?>

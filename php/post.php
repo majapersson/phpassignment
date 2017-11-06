@@ -5,19 +5,6 @@ declare(strict_types=1);
 // This file is for writing new posts to posts.json
 // Every $post contains title, content, author (with name, ID and profile picture), date published and number of likes
 
-//   [
-//     'title' => '',
-//     'content' => '',
-//     'author' => [
-//       'id' => '',
-//       'name' => '',
-//       'picture' => '',
-//     ],
-//
-//     'date' => '',
-//     'likes' => '',
-//   ],
-
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
 
